@@ -1,0 +1,11 @@
+C:\Users\Rimeri\source\repos\CustomerOrderAPI\CustomerOrderAPI.Domain\bin\Debug\net8.0\CustomerOrderAPI.Domain.deps.json
+C:\Users\Rimeri\source\repos\CustomerOrderAPI\CustomerOrderAPI.Domain\bin\Debug\net8.0\CustomerOrderAPI.Domain.dll
+C:\Users\Rimeri\source\repos\CustomerOrderAPI\CustomerOrderAPI.Domain\bin\Debug\net8.0\CustomerOrderAPI.Domain.pdb
+C:\Users\Rimeri\source\repos\CustomerOrderAPI\CustomerOrderAPI.Domain\obj\Debug\net8.0\CustomerOrderAPI.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rimeri\source\repos\CustomerOrderAPI\CustomerOrderAPI.Domain\obj\Debug\net8.0\CustomerOrderAPI.Domain.AssemblyInfoInputs.cache
+C:\Users\Rimeri\source\repos\CustomerOrderAPI\CustomerOrderAPI.Domain\obj\Debug\net8.0\CustomerOrderAPI.Domain.AssemblyInfo.cs
+C:\Users\Rimeri\source\repos\CustomerOrderAPI\CustomerOrderAPI.Domain\obj\Debug\net8.0\CustomerOrderAPI.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Rimeri\source\repos\CustomerOrderAPI\CustomerOrderAPI.Domain\obj\Debug\net8.0\CustomerOrderAPI.Domain.dll
+C:\Users\Rimeri\source\repos\CustomerOrderAPI\CustomerOrderAPI.Domain\obj\Debug\net8.0\refint\CustomerOrderAPI.Domain.dll
+C:\Users\Rimeri\source\repos\CustomerOrderAPI\CustomerOrderAPI.Domain\obj\Debug\net8.0\CustomerOrderAPI.Domain.pdb
+C:\Users\Rimeri\source\repos\CustomerOrderAPI\CustomerOrderAPI.Domain\obj\Debug\net8.0\ref\CustomerOrderAPI.Domain.dll

@@ -1,0 +1,17 @@
+C:\Users\Rimeri\source\repos\CustomerOrderAPI\CustomerOrderAPI.Infrastructure\obj\Debug\net8.0\CustomerOrderAPI.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Rimeri\source\repos\CustomerOrderAPI\CustomerOrderAPI.Infrastructure\obj\Debug\net8.0\CustomerOrderAPI.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rimeri\source\repos\CustomerOrderAPI\CustomerOrderAPI.Infrastructure\obj\Debug\net8.0\CustomerOrderAPI.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Rimeri\source\repos\CustomerOrderAPI\CustomerOrderAPI.Infrastructure\obj\Debug\net8.0\CustomerOrderAPI.Infrastructure.AssemblyInfo.cs
+C:\Users\Rimeri\source\repos\CustomerOrderAPI\CustomerOrderAPI.Infrastructure\obj\Debug\net8.0\CustomerOrderAPI.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Rimeri\source\repos\CustomerOrderAPI\CustomerOrderAPI.Infrastructure\bin\Debug\net8.0\CustomerOrderAPI.Infrastructure.deps.json
+C:\Users\Rimeri\source\repos\CustomerOrderAPI\CustomerOrderAPI.Infrastructure\bin\Debug\net8.0\CustomerOrderAPI.Infrastructure.runtimeconfig.json
+C:\Users\Rimeri\source\repos\CustomerOrderAPI\CustomerOrderAPI.Infrastructure\bin\Debug\net8.0\CustomerOrderAPI.Infrastructure.dll
+C:\Users\Rimeri\source\repos\CustomerOrderAPI\CustomerOrderAPI.Infrastructure\bin\Debug\net8.0\CustomerOrderAPI.Infrastructure.pdb
+C:\Users\Rimeri\source\repos\CustomerOrderAPI\CustomerOrderAPI.Infrastructure\bin\Debug\net8.0\CustomerOrderAPI.Domain.dll
+C:\Users\Rimeri\source\repos\CustomerOrderAPI\CustomerOrderAPI.Infrastructure\bin\Debug\net8.0\CustomerOrderAPI.Domain.pdb
+C:\Users\Rimeri\source\repos\CustomerOrderAPI\CustomerOrderAPI.Infrastructure\obj\Debug\net8.0\Customer.DFEE52E1.Up2Date
+C:\Users\Rimeri\source\repos\CustomerOrderAPI\CustomerOrderAPI.Infrastructure\obj\Debug\net8.0\CustomerOrderAPI.Infrastructure.dll
+C:\Users\Rimeri\source\repos\CustomerOrderAPI\CustomerOrderAPI.Infrastructure\obj\Debug\net8.0\refint\CustomerOrderAPI.Infrastructure.dll
+C:\Users\Rimeri\source\repos\CustomerOrderAPI\CustomerOrderAPI.Infrastructure\obj\Debug\net8.0\CustomerOrderAPI.Infrastructure.pdb
+C:\Users\Rimeri\source\repos\CustomerOrderAPI\CustomerOrderAPI.Infrastructure\obj\Debug\net8.0\CustomerOrderAPI.Infrastructure.genruntimeconfig.cache
+C:\Users\Rimeri\source\repos\CustomerOrderAPI\CustomerOrderAPI.Infrastructure\obj\Debug\net8.0\ref\CustomerOrderAPI.Infrastructure.dll

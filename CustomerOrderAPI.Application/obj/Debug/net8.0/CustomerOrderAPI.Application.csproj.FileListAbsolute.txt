@@ -1,0 +1,17 @@
+C:\Users\Rimeri\source\repos\CustomerOrderAPI\CustomerOrderAPI.Application\obj\Debug\net8.0\CustomerOrderAPI.Application.csproj.AssemblyReference.cache
+C:\Users\Rimeri\source\repos\CustomerOrderAPI\CustomerOrderAPI.Application\obj\Debug\net8.0\CustomerOrderAPI.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rimeri\source\repos\CustomerOrderAPI\CustomerOrderAPI.Application\obj\Debug\net8.0\CustomerOrderAPI.Application.AssemblyInfoInputs.cache
+C:\Users\Rimeri\source\repos\CustomerOrderAPI\CustomerOrderAPI.Application\obj\Debug\net8.0\CustomerOrderAPI.Application.AssemblyInfo.cs
+C:\Users\Rimeri\source\repos\CustomerOrderAPI\CustomerOrderAPI.Application\obj\Debug\net8.0\CustomerOrderAPI.Application.csproj.CoreCompileInputs.cache
+C:\Users\Rimeri\source\repos\CustomerOrderAPI\CustomerOrderAPI.Application\bin\Debug\net8.0\CustomerOrderAPI.Application.deps.json
+C:\Users\Rimeri\source\repos\CustomerOrderAPI\CustomerOrderAPI.Application\bin\Debug\net8.0\CustomerOrderAPI.Application.dll
+C:\Users\Rimeri\source\repos\CustomerOrderAPI\CustomerOrderAPI.Application\bin\Debug\net8.0\CustomerOrderAPI.Application.pdb
+C:\Users\Rimeri\source\repos\CustomerOrderAPI\CustomerOrderAPI.Application\bin\Debug\net8.0\CustomerOrderAPI.Domain.dll
+C:\Users\Rimeri\source\repos\CustomerOrderAPI\CustomerOrderAPI.Application\bin\Debug\net8.0\CustomerOrderAPI.Infrastructure.dll
+C:\Users\Rimeri\source\repos\CustomerOrderAPI\CustomerOrderAPI.Application\bin\Debug\net8.0\CustomerOrderAPI.Domain.pdb
+C:\Users\Rimeri\source\repos\CustomerOrderAPI\CustomerOrderAPI.Application\bin\Debug\net8.0\CustomerOrderAPI.Infrastructure.pdb
+C:\Users\Rimeri\source\repos\CustomerOrderAPI\CustomerOrderAPI.Application\obj\Debug\net8.0\Customer.DF4021A0.Up2Date
+C:\Users\Rimeri\source\repos\CustomerOrderAPI\CustomerOrderAPI.Application\obj\Debug\net8.0\CustomerOrderAPI.Application.dll
+C:\Users\Rimeri\source\repos\CustomerOrderAPI\CustomerOrderAPI.Application\obj\Debug\net8.0\refint\CustomerOrderAPI.Application.dll
+C:\Users\Rimeri\source\repos\CustomerOrderAPI\CustomerOrderAPI.Application\obj\Debug\net8.0\CustomerOrderAPI.Application.pdb
+C:\Users\Rimeri\source\repos\CustomerOrderAPI\CustomerOrderAPI.Application\obj\Debug\net8.0\ref\CustomerOrderAPI.Application.dll

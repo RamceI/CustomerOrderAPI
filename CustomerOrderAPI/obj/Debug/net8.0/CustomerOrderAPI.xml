@@ -1,0 +1,184 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CustomerOrderAPI</name>
+    </assembly>
+    <members>
+        <member name="T:CustomerOrderAPI.Controllers.V1.CustomerController">
+            <summary>
+            Controller responsible for handling customer-related API requests.
+            </summary>
+        </member>
+        <member name="M:CustomerOrderAPI.Controllers.V1.CustomerController.#ctor(MediatR.IMediator)">
+            <summary>
+            Constructor to initialize the CustomerController.
+            </summary>
+            <param name="mediator">IMediator service for handling commands and queries.</param>
+        </member>
+        <member name="M:CustomerOrderAPI.Controllers.V1.CustomerController.Post(CustomerOrderAPI.Application.DTO.Customer.CustomerDto)">
+            <summary>
+            Adds a new customer.
+            </summary>
+            <param name="customer">Customer data transfer object.</param>
+            <returns>A newly created customer.</returns>
+            <response code="200">Returns the newly created customer.</response>
+            <response code="400">If the customer DTO is invalid.</response>
+        </member>
+        <member name="M:CustomerOrderAPI.Controllers.V1.CustomerController.Get(System.Int32,System.Int32,System.String)">
+            <summary>
+            Retrieves paginated customers with an optional filter.
+            </summary>
+            <param name="page">The page number.</param>
+            <param name="size">The number of items per page.</param>
+            <param name="filter">An optional filter parameter for customer search.</param>
+            <returns>A list of customers based on the paging and filter parameters.</returns>
+            <response code="200">Returns the list of customers.</response>
+        </member>
+        <member name="M:CustomerOrderAPI.Controllers.V1.CustomerController.GetAll">
+            <summary>
+            Retrieves all customers.
+            </summary>
+            <returns>A list of all customers.</returns>
+            <response code="200">Returns the list of all customers.</response>
+        </member>
+        <member name="M:CustomerOrderAPI.Controllers.V1.CustomerController.Update(System.Int32,CustomerOrderAPI.Application.DTO.Customer.CustomerDto)">
+            <summary>
+            Updates a customer by ID.
+            </summary>
+            <param name="id">The ID of the customer to update.</param>
+            <param name="customerDto">Updated customer data transfer object.</param>
+            <returns>The updated customer details.</returns>
+            <response code="200">Returns the updated customer details.</response>
+            <response code="404">If the customer with the given ID is not found.</response>
+        </member>
+        <member name="M:CustomerOrderAPI.Controllers.V1.CustomerController.Delete(System.Int32)">
+            <summary>
+            Deletes a customer by ID.
+            </summary>
+            <param name="id">The ID of the customer to delete.</param>
+            <returns>An action result indicating success or failure.</returns>
+            <response code="200">If the customer is successfully deleted.</response>
+            <response code="404">If the customer with the given ID is not found.</response>
+        </member>
+        <member name="T:CustomerOrderAPI.Controllers.V1.OrderController">
+            <summary>
+            Controller responsible for handling order-related API requests.
+            </summary>
+        </member>
+        <member name="M:CustomerOrderAPI.Controllers.V1.OrderController.#ctor(MediatR.IMediator)">
+            <summary>
+            Initializes a new instance of the <see cref="T:CustomerOrderAPI.Controllers.V1.OrderController"/> class.
+            </summary>
+            <param name="mediator">IMediator service for handling commands and queries.</param>
+        </member>
+        <member name="M:CustomerOrderAPI.Controllers.V1.OrderController.Post(CustomerOrderAPI.Application.DTO.Order.OrderDto)">
+            <summary>
+            Creates a new order.
+            </summary>
+            <param name="orderDto">The order data transfer object (DTO) containing order details.</param>
+            <returns>The created order details.</returns>
+            <response code="200">If the order is successfully created.</response>
+            <response code="400">If the order DTO is invalid.</response>
+        </member>
+        <member name="M:CustomerOrderAPI.Controllers.V1.OrderController.Get(System.Int32,System.Int32,System.String)">
+            <summary>
+            Retrieves paginated orders with an optional filter.
+            </summary>
+            <param name="page">The page number to retrieve.</param>
+            <param name="size">The number of items per page.</param>
+            <param name="filter">An optional filter parameter to search orders.</param>
+            <returns>A list of paginated orders.</returns>
+            <response code="200">Returns the paginated list of orders.</response>
+        </member>
+        <member name="M:CustomerOrderAPI.Controllers.V1.OrderController.GetAll">
+            <summary>
+            Retrieves all orders.
+            </summary>
+            <returns>A list of all orders.</returns>
+            <response code="200">Returns the list of all orders.</response>
+        </member>
+        <member name="M:CustomerOrderAPI.Controllers.V1.OrderController.GetCustomerOrders(System.Int32)">
+            <summary>
+            Retrieves orders for a specific customer.
+            </summary>
+            <param name="customerId">The ID of the customer whose orders are to be retrieved.</param>
+            <returns>A list of orders for the specified customer.</returns>
+            <response code="200">Returns the list of orders for the customer.</response>
+        </member>
+        <member name="M:CustomerOrderAPI.Controllers.V1.OrderController.Update(System.Int32,CustomerOrderAPI.Application.DTO.Order.OrderDto)">
+            <summary>
+            Updates an existing order by ID.
+            </summary>
+            <param name="id">The ID of the order to update.</param>
+            <param name="orderDto">The updated order data transfer object (DTO).</param>
+            <returns>The updated order details.</returns>
+            <response code="200">Returns the updated order details.</response>
+            <response code="404">If the order with the given ID is not found.</response>
+        </member>
+        <member name="M:CustomerOrderAPI.Controllers.V1.OrderController.Delete(System.Int32)">
+            <summary>
+            Deletes an order by ID.
+            </summary>
+            <param name="id">The ID of the order to delete.</param>
+            <returns>An action result indicating success or failure.</returns>
+            <response code="200">If the order is successfully deleted.</response>
+            <response code="404">If the order with the given ID is not found.</response>
+        </member>
+        <member name="T:CustomerOrderAPI.Controllers.V1.ProductController">
+            <summary>
+            Controller responsible for handling product-related API requests.
+            </summary>
+        </member>
+        <member name="M:CustomerOrderAPI.Controllers.V1.ProductController.#ctor(MediatR.IMediator)">
+            <summary>
+            Initializes a new instance of the <see cref="T:CustomerOrderAPI.Controllers.V1.ProductController"/> class.
+            </summary>
+            <param name="mediator">IMediator service for handling commands and queries.</param>
+        </member>
+        <member name="M:CustomerOrderAPI.Controllers.V1.ProductController.Post(CustomerOrderAPI.Application.DTO.Product.ProductDto)">
+            <summary>
+            Creates a new product.
+            </summary>
+            <param name="productDto">The product data transfer object (DTO) containing product details.</param>
+            <returns>The created product details.</returns>
+            <response code="200">If the product is successfully created.</response>
+            <response code="400">If the product DTO is invalid.</response>
+        </member>
+        <member name="M:CustomerOrderAPI.Controllers.V1.ProductController.Get(System.Int32,System.Int32,System.String)">
+            <summary>
+            Retrieves paginated products with an optional filter.
+            </summary>
+            <param name="page">The page number to retrieve.</param>
+            <param name="size">The number of items per page.</param>
+            <param name="filter">An optional filter parameter to search products.</param>
+            <returns>A list of paginated products.</returns>
+            <response code="200">Returns the paginated list of products.</response>
+        </member>
+        <member name="M:CustomerOrderAPI.Controllers.V1.ProductController.GetAll">
+            <summary>
+            Retrieves all products.
+            </summary>
+            <returns>A list of all products.</returns>
+            <response code="200">Returns the list of all products.</response>
+        </member>
+        <member name="M:CustomerOrderAPI.Controllers.V1.ProductController.Update(System.Int32,CustomerOrderAPI.Application.DTO.Product.ProductDto)">
+            <summary>
+            Updates an existing product by ID.
+            </summary>
+            <param name="id">The ID of the product to update.</param>
+            <param name="productDto">The updated product data transfer object (DTO).</param>
+            <returns>The updated product details.</returns>
+            <response code="200">Returns the updated product details.</response>
+            <response code="404">If the product with the given ID is not found.</response>
+        </member>
+        <member name="M:CustomerOrderAPI.Controllers.V1.ProductController.Delete(System.Int32)">
+            <summary>
+            Deletes a product by ID.
+            </summary>
+            <param name="id">The ID of the product to delete.</param>
+            <returns>An action result indicating success or failure.</returns>
+            <response code="200">If the product is successfully deleted.</response>
+            <response code="404">If the product with the given ID is not found.</response>
+        </member>
+    </members>
+</doc>
